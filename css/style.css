@@ -315,20 +315,32 @@ body {
   align-items: center;
 }
 .reviews-container {
-  width: 900px;
+  width: 1100px;
   height: 600px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-content: space-around;
 }
 .reviews {
-  width: 400px;
-  height: 200px;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+.reviews-foto {
+  border: 1px solid #d74680;
+  border-radius: 100%;
+}
+.reviews-text-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: start;
+  height: 190px;
 }
 .reviews-text {
   font-size: 21px;
